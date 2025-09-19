@@ -1,3 +1,5 @@
+The name of the code is 'fitting'
+
 This code fits a set of points of the type (z,V), (x,y,V),
 (x,y,z,V), (x,y,z,s,V), (x,y,z,s,t,V) or (x,y,z,s,t,u,V)
 by means of the Linear Least Squares Method, to a fitting
@@ -7,3 +9,9 @@ V(x,y,z,s,t) or V(x,y,z,s,t,u)
 
 V is the function
 x,y,z,s,t,u are the variables
+
+The code is written in fortran and only for Unix/Linux environments.
+
+It has been compiled and tested on different hosts based on Unix/Linux
+
+To compile the code, run 'make' or 'make -s'
