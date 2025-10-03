@@ -21,8 +21,8 @@ a) tar zxvf fitting-source.tar.gz    The files will be in the directory fitting/
 b) cd fitting/source
 c) Enter 'make' or 'make -s'
 
-The file fitting-inputandoutputfiles.tar.gz contains some examples of input files and their 
-corresponding output files. To get those examples, enter 'tar zxvf fitting-inputandoutputfiles.tar.gz'.
+The file fitting-inputandoutput-examples.tar.gz contains some examples of input files and their 
+corresponding output files. To get those examples, enter 'tar zxvf fitting-inputandoutput-examples.tar.gz'.
 
 To run the code:
 fitting < inputfile > outputfile &
