@@ -14,4 +14,15 @@ The code is written in fortran and only for Unix/Linux environments.
 
 It has been compiled and tested on different hosts based on Unix/Linux
 
-To compile the code, run 'make' or 'make -s'
+The file fitting-source.tar.gz contains the source code and the makefile file
+
+To compile the code:
+a) tar zxvf fitting-source.tar.gz    The files will be in the directory fitting/source
+b) cd fitting/source
+c) Enter 'make' or 'make -s'
+
+The file fitting-inputandoutputfiles.tar.gz contains some examples of input files and their 
+corresponding output files
+
+To run the code:
+fitting < inputfile > outputfile &
