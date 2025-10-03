@@ -22,7 +22,7 @@ b) cd fitting/source
 c) Enter 'make' or 'make -s'
 
 The file fitting-inputandoutputfiles.tar.gz contains some examples of input files and their 
-corresponding output files
+corresponding output files. To get those examples, enter 'tar zxvf fitting-inputandoutputfiles.tar.gz'.
 
 To run the code:
 fitting < inputfile > outputfile &
